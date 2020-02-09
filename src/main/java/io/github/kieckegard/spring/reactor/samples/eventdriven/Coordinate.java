@@ -32,16 +32,6 @@ public class Coordinate implements Serializable {
         return lng;
     }
 
-    public void setLat(Double lat) {
-        this.lat = lat;
-    }
-
-    public void setLng(Double lng) {
-        this.lng = lng;
-    }
-    
-    
-
     @Override
     public int hashCode() {
         int hash = 5;

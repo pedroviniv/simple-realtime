@@ -30,18 +30,6 @@ public class Tracking implements Serializable {
     public Tracking() {
     }
 
-    public void setAggregateId(String aggregateId) {
-        this.aggregateId = aggregateId;
-    }
-
-    public void setDateTime(LocalDateTime dateTime) {
-        this.dateTime = dateTime;
-    }
-
-    public void setCoordinates(Coordinate coordinates) {
-        this.coordinates = coordinates;
-    }
-
     public static class Builder {
 
         private String aggregateId;
